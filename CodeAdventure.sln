@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D14506E0-9CDE-9DDC-B555-A39AE44D6883}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.Modules.Unity.Addressables", "Sirenix.OdinInspector.Modules.Unity.Addressables.csproj", "{911D9ADF-07E0-B959-BD9F-E44B2A2C64F4}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{D45BBD9E-5291-0FF0-A8BF-C3B893CA2621}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{A3E8161E-093C-B43E-8CB0-9F1C9B1ECEC6}"
@@ -19,6 +21,10 @@ Global
 		{D14506E0-9CDE-9DDC-B555-A39AE44D6883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D14506E0-9CDE-9DDC-B555-A39AE44D6883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D14506E0-9CDE-9DDC-B555-A39AE44D6883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911D9ADF-07E0-B959-BD9F-E44B2A2C64F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911D9ADF-07E0-B959-BD9F-E44B2A2C64F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911D9ADF-07E0-B959-BD9F-E44B2A2C64F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911D9ADF-07E0-B959-BD9F-E44B2A2C64F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D45BBD9E-5291-0FF0-A8BF-C3B893CA2621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D45BBD9E-5291-0FF0-A8BF-C3B893CA2621}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D45BBD9E-5291-0FF0-A8BF-C3B893CA2621}.Release|Any CPU.ActiveCfg = Release|Any CPU

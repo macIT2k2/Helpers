@@ -72,7 +72,7 @@
     <Compile Include="Assets/Helpers/Tools/MenuItemScale.cs" />
     <Compile Include="Assets/Helpers/Dev_Tools/Dev_PlayerPrefs.cs" />
     <Compile Include="Assets/Helpers/Tools/ResourceLoader.cs" />
-    <Compile Include="Assets/Scripts/Addressable.cs" />
+    <Compile Include="Assets/Addressable.cs" />
     <Compile Include="Assets/Helpers/Tools/MenuItem.cs" />
     <Compile Include="Assets/Helpers/Tools/MenuItemDefault.cs" />
     <Compile Include="Assets/Helpers/Dev_Tools/QueueExtension.cs" />
