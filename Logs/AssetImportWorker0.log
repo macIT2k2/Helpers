@@ -1,0 +1,1395 @@
+Unity Editor version:    2022.3.49f1 (4dae1bb8668d)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.2 (Build 24C101)
+Darwin version:          24.2.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mobione/CodeAdventure
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62396
+Successfully changed project path to: /Users/mobione/CodeAdventure
+/Users/mobione/CodeAdventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8743477760]  Target information:
+
+Player connection [8743477760]  * "[IP] 192.168.1.91 [Port] 0 [Flags] 2 [Guid] 2465228253 [EditorId] 2465228253 [Version] 1048832 [Id] OSXEditor(0,MOBIONEs-Mac-mini-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8743477760] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8743477760] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+Refreshing native plugins compatible for Editor in 31.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.49f1 (4dae1bb8668d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mobione/CodeAdventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M4 (high power)
+Metal devices available: 1
+0: Apple M4 (high power)
+Using device Apple M4 (high power)
+Initializing Metal device caps: Apple M4
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56529
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.49f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.000880 seconds.
+- Loaded All Assemblies, in  0.462 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 204 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.255 seconds
+Domain Reload Profiling: 1718ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (126ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (179ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1256ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1188ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (474ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (478ms)
+			ProcessInitializeOnLoadMethodAttributes (215ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.856 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.703 seconds
+Domain Reload Profiling: 3561ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (491ms)
+		LoadAssemblies (430ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2704ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2417ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (1692ms)
+			ProcessInitializeOnLoadMethodAttributes (599ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3146 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (49.6 KB). Loaded Objects now: 3676.
+Memory consumption went from 152.4 MB to 152.4 MB.
+Total: 13.517042 ms (FindLiveObjects: 0.199709 ms CreateObjectMapping: 0.047417 ms MarkObjects: 13.124833 ms  DeleteObjects: 0.144333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23146.098908 seconds.
+  path: Assets/Helpers/Dev_Tools/QueueExtension.cs
+  artifactKey: Guid(df2ddfc546676441eb230f84e9192550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Helpers/Dev_Tools/QueueExtension.cs using Guid(df2ddfc546676441eb230f84e9192550) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f8b98a987d52cb78dfbb65daa0700757') in 0.005417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.758 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.136 seconds
+Domain Reload Profiling: 3896ms
+	BeginReloadAssembly (317ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (469ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3137ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (1745ms)
+			ProcessInitializeOnLoadMethodAttributes (585ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (29.6 KB). Loaded Objects now: 3679.
+Memory consumption went from 162.2 MB to 162.1 MB.
+Total: 13.375166 ms (FindLiveObjects: 0.209292 ms CreateObjectMapping: 0.046375 ms MarkObjects: 13.048584 ms  DeleteObjects: 0.069792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 18ee02b86d40af864b6032e3bf3400f8 -> ef29ec41b446c4d10d6574da3137750c
+========================================================================
+Received Import Request.
+  Time since last request: 299.988384 seconds.
+  path: Assets/Helpers/Dev_Tools/QueueExtension.cs
+  artifactKey: Guid(df2ddfc546676441eb230f84e9192550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Helpers/Dev_Tools/QueueExtension.cs using Guid(df2ddfc546676441eb230f84e9192550) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '858c396c7735ec4d7fc1fa94ef7ac376') in 0.002771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5623.886599 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(3be139fa7814547d89723c4b418acfc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(3be139fa7814547d89723c4b418acfc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '6b58492b838e15f64878159eae7c62f9') in 1.183371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Helpers/Dev_Tools/FixResolution/FixResolutionCanvas.cs
+  artifactKey: Guid(cae2a07959c8834458096907c8936116) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Helpers/Dev_Tools/FixResolution/FixResolutionCanvas.cs using Guid(cae2a07959c8834458096907c8936116) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f30b485fa8b6bed6005b3de315f93508') in 0.061135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs
+  artifactKey: Guid(8fb0d65aa5b048649a3a785b82b8f8db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs using Guid(8fb0d65aa5b048649a3a785b82b8f8db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7c533ff1b69fbe0a856d12a8aabc833e') in 0.008381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll
+  artifactKey: Guid(4873f2a8bdae42baa0406e8a61366ca1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll using Guid(4873f2a8bdae42baa0406e8a61366ca1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '8ffcf1cabc5923cc785b188b05f74886') in 0.056089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Reflection.Editor.pdb
+  artifactKey: Guid(61824742f78323c439d83403f8270e6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Reflection.Editor.pdb using Guid(61824742f78323c439d83403f8270e6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a9159807ed26438e999430f3d5a8ba98') in 0.006074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeAudio.cs
+  artifactKey: Guid(1d1aa01bacf85c04ea18116651a7f0db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeAudio.cs using Guid(1d1aa01bacf85c04ea18116651a7f0db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '2ccf91404a1435ae9fa8e445f147cb7c') in 0.010453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Helpers/Tools/MenuItem.cs
+  artifactKey: Guid(de1f7c2ba63b25c4eb663f56464053ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Helpers/Tools/MenuItem.cs using Guid(de1f7c2ba63b25c4eb663f56464053ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f2b955dbf1d1fb47a18060257e7cd3ef') in 0.008883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Helpers/Dev_Tools/FixResolution/SafeArea.cs
+  artifactKey: Guid(2f1f9abccfe9d6e48ba5479358687825) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Helpers/Dev_Tools/FixResolution/SafeArea.cs using Guid(2f1f9abccfe9d6e48ba5479358687825) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4ef738728c2ef41d738b1d8b7534b456') in 0.003563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs
+  artifactKey: Guid(e0203fd81362bab4d842d87ad09ee76e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs using Guid(e0203fd81362bab4d842d87ad09ee76e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7eea2ff4cdd0bc901c03f3dcafaa98ee') in 0.005734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.pdb
+  artifactKey: Guid(a4865f1ab4504ed8a368670db22f0a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.pdb using Guid(a4865f1ab4504ed8a368670db22f0a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '2a20b1f04313e51d81e1838cf90d83b2') in 0.003525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.xml
+  artifactKey: Guid(9bf2564c9817bb34988453ae948954d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.xml using Guid(9bf2564c9817bb34988453ae948954d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '20d6c56c30909baa1652d39cfea7d2a3') in 0.004382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML
+  artifactKey: Guid(753a4f4ed73b17143923101226957756) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML using Guid(753a4f4ed73b17143923101226957756) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'b55d7802fbc0f39eaaa02a749c44fa93') in 0.004164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.xml
+  artifactKey: Guid(47a84ebde4ec47fabb620b30cc7a096f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.xml using Guid(47a84ebde4ec47fabb620b30cc7a096f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '813558b334762d8af23eafea71bf4bda') in 0.004116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenPathSettings.lighting
+  artifactKey: Guid(1a6d383518a5946698f85b0ba9119f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenPathSettings.lighting using Guid(1a6d383518a5946698f85b0ba9119f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '8b3e54048193adbde082abeba151377b') in 0.014002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.pdb
+  artifactKey: Guid(47a84ebde4ec47fabb620b30cc7a0a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.pdb using Guid(47a84ebde4ec47fabb620b30cc7a0a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'c8c6e53f6de93da4b8cb8280295e5864') in 0.004379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png
+  artifactKey: Guid(44a054df1702e39458b7072b08d0f212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png using Guid(44a054df1702e39458b7072b08d0f212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1536b8e5cdbc1539a6a9222c7c2d0d8e') in 0.066350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll.mdb
+  artifactKey: Guid(995cf2d9b4a41f840b3a41712e9b3bc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll.mdb using Guid(995cf2d9b4a41f840b3a41712e9b3bc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a1b8afab137fff31407d67b9fa9225ef') in 0.002139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll
+  artifactKey: Guid(5f3147f7af4c49739579b966c458f5e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll using Guid(5f3147f7af4c49739579b966c458f5e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'dc130f9da0ea05d73c286dcb5128f6c3') in 0.006711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll
+  artifactKey: Guid(74721b9f0af448f5ae2e91102a1a5edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll using Guid(74721b9f0af448f5ae2e91102a1a5edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '371ef9b9c56da6e4d52d4f38a35fdbe0') in 0.003204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.pdb
+  artifactKey: Guid(d2a8f0021d6b47c5923d8972dfb80a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.pdb using Guid(d2a8f0021d6b47c5923d8972dfb80a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '23693573f96754ea4ba17be73e9fc85d') in 0.001399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll.mdb
+  artifactKey: Guid(ee3a420017f129443896310d9fab256b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll.mdb using Guid(ee3a420017f129443896310d9fab256b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '84371edae1f1933272a69dd94dbdf332') in 0.001239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Helpers/Dev_Tools/Dev_PlayerPrefs.cs
+  artifactKey: Guid(d0a346268bfe30a48883f554cab1b2ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Helpers/Dev_Tools/Dev_PlayerPrefs.cs using Guid(d0a346268bfe30a48883f554cab1b2ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4577489243c4088c1060a067ca88865c') in 0.001869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Helpers/Tools/ResourceLoader.cs
+  artifactKey: Guid(340a92c06a2e98943921ab2c4f83611d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Helpers/Tools/ResourceLoader.cs using Guid(340a92c06a2e98943921ab2c4f83611d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '87b1a69befe1da5b79ced349750e8fce') in 0.001601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Plugins/Sirenix/Readme.txt
+  artifactKey: Guid(e957a9e8b4f4bce4b8a34e504a8c39d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Readme.txt using Guid(e957a9e8b4f4bce4b8a34e504a8c39d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '86ad4aa7c4a3568069f63d32ff33068e') in 0.002015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenPath.unity
+  artifactKey: Guid(a351b59ca54a0bc4083c35844da13a61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenPath.unity using Guid(a351b59ca54a0bc4083c35844da13a61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1a447c5005abc0fc3cbfa9f4cd297f42') in 0.001571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb
+  artifactKey: Guid(8f46310a8b0a8f04a92993c37c713243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb using Guid(8f46310a8b0a8f04a92993c37c713243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'ddb9dabf4368f58b60a53e62d676faf2') in 0.001308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll
+  artifactKey: Guid(5651992cdad94894a3af7dc3f1da9170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll using Guid(5651992cdad94894a3af7dc3f1da9170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '09072e93eb48e95341c03c5d9185748f') in 0.005896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Helpers/Tools/MenuItemFadeCanvasGroup.cs
+  artifactKey: Guid(1c239e7e39ced7d499c60ccfb6cb6d4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Helpers/Tools/MenuItemFadeCanvasGroup.cs using Guid(1c239e7e39ced7d499c60ccfb6cb6d4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'e4020897a28445dfa8a95b1001052234') in 0.002125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb
+  artifactKey: Guid(4f007001a22b3d24dae350342c4d19c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb using Guid(4f007001a22b3d24dae350342c4d19c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '56c3831bd2747404242135e3133ece9a') in 0.001737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg
+  artifactKey: Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg using Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'efff428904e5698cf5e8890db4fc9fb4') in 0.007351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png
+  artifactKey: Guid(d1d45eadab0e41c4a82cdffb6396b1d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png using Guid(d1d45eadab0e41c4a82cdffb6396b1d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '6e1c04be1b84fd21b9a7630975e69962') in 0.009611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png
+  artifactKey: Guid(34f39b5a760ddbb4d8b8749852868335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png using Guid(34f39b5a760ddbb4d8b8749852868335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '5c0b7f9969fab4aadfa624094a75e7f0') in 0.007198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png
+  artifactKey: Guid(d173388c1d9c32a418b5b777dd89d71a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png using Guid(d173388c1d9c32a418b5b777dd89d71a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd7934ef479098f2a2aec82eca375128e') in 0.005605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png
+  artifactKey: Guid(05cfe010378336646ad6c721f66543d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png using Guid(05cfe010378336646ad6c721f66543d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'e8823ffa08e1cabb0a18e9049be5cfc5') in 0.005627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png
+  artifactKey: Guid(8f0cb66458819764b94b93250bae94b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png using Guid(8f0cb66458819764b94b93250bae94b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '93ba97c1ac5bd4e5dd7065fe8aad69c1') in 0.005529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png
+  artifactKey: Guid(a248c8288afb9184f953d9aa07a696b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png using Guid(a248c8288afb9184f953d9aa07a696b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '23b17258ed9477e5e7a288632211f20d') in 0.007033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset
+  artifactKey: Guid(08379ccefc05200459f90a1c0711a340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset using Guid(08379ccefc05200459f90a1c0711a340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a7ef8b9bb1c0bea1c870fc863404c43a') in 0.004470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png
+  artifactKey: Guid(4aa34055b1d36ef479af3d7b5701b28a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png using Guid(4aa34055b1d36ef479af3d7b5701b28a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'ada57aafdbe24c8073d8f6d4f0560c2d') in 0.006165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png
+  artifactKey: Guid(18a5a7cde794cc04b9b446f0feedb3a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png using Guid(18a5a7cde794cc04b9b446f0feedb3a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a0c0451cf85b4b2b859bfecab2ed198b') in 0.005720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset
+  artifactKey: Guid(e533c6d8f8dfc4adda29d13bee51014e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset using Guid(e533c6d8f8dfc4adda29d13bee51014e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '269c19b6b9a599f7bc8b27a4d04b5916') in 0.003732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png
+  artifactKey: Guid(727ba41e4cc95fe4a98b07301e3ebfc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png using Guid(727ba41e4cc95fe4a98b07301e3ebfc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'cb275f462b6eb9f5a15bac69fd5e69a4') in 0.012975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light_border.png
+  artifactKey: Guid(252f207d01ecc87419cdba1d1c0ab1ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light_border.png using Guid(252f207d01ecc87419cdba1d1c0ab1ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f3a7ec7146b7c6bb8c0628b78733925d') in 0.020666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data
+  artifactKey: Guid(728df0e3465c1a148b83053a3f31d489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data using Guid(728df0e3465c1a148b83053a3f31d489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'e9a9e4440ad8187191dc245d43f30e31') in 0.001983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png
+  artifactKey: Guid(d98b8847646169c4fb5af28dd84c4179) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png using Guid(d98b8847646169c4fb5af28dd84c4179) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'c0d71d0288b5f2d1be9f9d9d3b5f96df') in 0.005685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png
+  artifactKey: Guid(32eaa0efb2b38774ea9705b40fdcc00a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png using Guid(32eaa0efb2b38774ea9705b40fdcc00a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '5a69dd0694a66c18206259d8e9ddf7c3') in 0.005558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png
+  artifactKey: Guid(aa1d42dc6ff3e894da2208c6929d2165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png using Guid(aa1d42dc6ff3e894da2208c6929d2165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7dfd3c1d45ef643709d11f60c96f17a6') in 0.005485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/ConfigData.bytes
+  artifactKey: Guid(90eaa0dc28c1934408dc1c02e13a507f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/ConfigData.bytes using Guid(90eaa0dc28c1934408dc1c02e13a507f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd89d422af5bcba7b6a2ecd9f29590a15') in 0.001882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png
+  artifactKey: Guid(358cddede8023574191e0aae610a4645) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png using Guid(358cddede8023574191e0aae610a4645) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '05c302c00c810977705745a1a2eb5468') in 0.006906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png
+  artifactKey: Guid(0f79253104349f44cb73978f6c8e93de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png using Guid(0f79253104349f44cb73978f6c8e93de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '384e0cc424a57c3670c54a9a64082abe') in 0.006372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png
+  artifactKey: Guid(8c9cfa1dbe00a1d41ae9d14f5ac543ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png using Guid(8c9cfa1dbe00a1d41ae9d14f5ac543ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3e7079d43ecf172b39c79f763fdf3371') in 0.009155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png
+  artifactKey: Guid(6f504a3fa8848264bb4fb9bb7d582dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png using Guid(6f504a3fa8848264bb4fb9bb7d582dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '2047f3cc6a6e08a50439f462fb888f50') in 0.005664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.xml
+  artifactKey: Guid(d4a42b2e4e6f64d4ba01d35c5a3dafed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.xml using Guid(d4a42b2e4e6f64d4ba01d35c5a3dafed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'bbe5b84bd305df936bde08d5fc46b22d') in 0.002012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png
+  artifactKey: Guid(93b1287b4a087f84c95c72f49ec94e83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png using Guid(93b1287b4a087f84c95c72f49ec94e83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9cf07e9298c6aaf0cd5cb944653e82cf') in 0.007605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Localization.data
+  artifactKey: Guid(5a1693d73a4f6e34d955789129c71e11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Localization.data using Guid(5a1693d73a4f6e34d955789129c71e11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9c1d6caeaa689bac612773f30fb9a6f8') in 0.002582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png
+  artifactKey: Guid(e01c0b07c87513844ab88bb432bcf85a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png using Guid(e01c0b07c87513844ab88bb432bcf85a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '82008ee0b50b242457e3b3f2e4634b55') in 0.005718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png
+  artifactKey: Guid(7c83a08052c9e2f49b47897a637994de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png using Guid(7c83a08052c9e2f49b47897a637994de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f6d1cd64e921be43747000edd445e6a1') in 0.005314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png
+  artifactKey: Guid(d542f997a51000946873268e3546b6ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png using Guid(d542f997a51000946873268e3546b6ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '590acc1b2caa3c2ac8445dbbfb3c3357') in 0.005167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png
+  artifactKey: Guid(6b1f9e1e1c2cf004b8e3bdd3033a8e75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png using Guid(6b1f9e1e1c2cf004b8e3bdd3033a8e75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '37ea09ba10628e3d9c9a796a6b9a6e3e') in 0.006973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.pdb
+  artifactKey: Guid(5978f8f3dd274e848fbb7a123bde0a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.pdb using Guid(5978f8f3dd274e848fbb7a123bde0a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '93e3e01bf38c6ed4d93752a39adba244') in 0.001567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png
+  artifactKey: Guid(d18ceface0c20014b8db4bba05a41b83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png using Guid(d18ceface0c20014b8db4bba05a41b83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '523e28f2464a4ae174421be80a6bd47a') in 0.005380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png
+  artifactKey: Guid(e3d0592dad579e141924133869455c53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png using Guid(e3d0592dad579e141924133869455c53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3d3ca3662ba3aef8a24d3b5a5c445c2f') in 0.005172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png
+  artifactKey: Guid(abf8a615f379ef44b9ac872a13b7712f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png using Guid(abf8a615f379ef44b9ac872a13b7712f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7f138a9d225f9f60f930a18f860040f8') in 0.005231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png
+  artifactKey: Guid(6862027f2176eae40a3143c562466a1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png using Guid(6862027f2176eae40a3143c562466a1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f735005150dfc166b45dbf5d7f98df13') in 0.006294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Plugins/Demigiant/readme_DOTweenPro.txt
+  artifactKey: Guid(24123b2fcdc15c943bed44e0c6beeec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/readme_DOTweenPro.txt using Guid(24123b2fcdc15c943bed44e0c6beeec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4248a9765f668092a8a6103824b897a8') in 0.002813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Helpers/Tools/MenuItemFade.cs
+  artifactKey: Guid(f06d48ac771c49b439cbfb7b24e7e79b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Helpers/Tools/MenuItemFade.cs using Guid(f06d48ac771c49b439cbfb7b24e7e79b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4e577e9be393cb734e0a30c5c134244b') in 0.002288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png
+  artifactKey: Guid(8b6b31f71cd528243b053cfc488e73f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png using Guid(8b6b31f71cd528243b053cfc488e73f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '174010855f8f8924273067e71bc97596') in 0.005359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png
+  artifactKey: Guid(eeac3acbf7d1cd54fabfb1c4a12f9fc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png using Guid(eeac3acbf7d1cd54fabfb1c4a12f9fc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '084ea54897f9daef22f2b18d2b562e8d') in 0.005500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Helpers/Dev_Tools/UI/DynamicGridLayout.cs
+  artifactKey: Guid(1c2f59f57911dfd40bf14934b8d409d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Helpers/Dev_Tools/UI/DynamicGridLayout.cs using Guid(1c2f59f57911dfd40bf14934b8d409d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'bc5943a4f99940c806bcc4ef820b511e') in 0.002278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.pdb
+  artifactKey: Guid(5c65184932ff4fd48a343e2360250a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.pdb using Guid(5c65184932ff4fd48a343e2360250a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'b61ba2edbfb2e064c2cded975a6c64eb') in 0.002553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/Sirenix/Demos/Custom Attribute Processors.unitypackage
+  artifactKey: Guid(f597f19f656ba56eae4f6a3a7cc528f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Demos/Custom Attribute Processors.unitypackage using Guid(f597f19f656ba56eae4f6a3a7cc528f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd5562c9c473f42364644d62e18a28205') in 0.001571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9069c286f82dbbf7e631bcfd6685bac6') in 0.005671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll.mdb
+  artifactKey: Guid(2c20a7b4db3cd0a4a99bcf6218f92860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll.mdb using Guid(2c20a7b4db3cd0a4a99bcf6218f92860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a1aa29650f66cae109471ffc694af353') in 0.001659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Advanced.unity
+  artifactKey: Guid(a5f7a56d339da84449899ecf95fbe33d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Advanced.unity using Guid(a5f7a56d339da84449899ecf95fbe33d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4fad6c8435a10c1911ed7398e306f791') in 0.001553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.xml
+  artifactKey: Guid(5f3147f7af4c49739579b966c458096f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.xml using Guid(5f3147f7af4c49739579b966c458096f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'cf222ce9f1567bf1b4aae2bee9c42b5b') in 0.005664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs
+  artifactKey: Guid(a060394c03331a64392db53a10e7f2d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs using Guid(a060394c03331a64392db53a10e7f2d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '39da2a9e30cbb2d49f546f221e788583') in 0.002258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Reflection.Editor.dll
+  artifactKey: Guid(61824742f78323c439d83403f8272d41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Reflection.Editor.dll using Guid(61824742f78323c439d83403f8272d41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '23e2b7b51407da40f833c269f1cb2d84') in 0.002162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/link.xml
+  artifactKey: Guid(1bec01331befdea4d9ed9033eabd68f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/link.xml using Guid(1bec01331befdea4d9ed9033eabd68f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'fe4516d0191f3533dddf18c87810dc49') in 0.001565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png
+  artifactKey: Guid(2a8208d8e80f90944b8ff2978292b03b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png using Guid(2a8208d8e80f90944b8ff2978292b03b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '395334173d9275642237a4cad0965b0a') in 0.005363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll
+  artifactKey: Guid(1e0a9643dc0d4b46bf2321f72c4e503e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll using Guid(1e0a9643dc0d4b46bf2321f72c4e503e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f7079c53899ba5eefa23937ae9b59e29') in 0.005007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Helpers/Tools/MenuItemScale.cs
+  artifactKey: Guid(4853ceb94269485488a8a697494735dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Helpers/Tools/MenuItemScale.cs using Guid(4853ceb94269485488a8a697494735dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4d44d5a564d1503c915dc7f491808769') in 0.002353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Helpers/Tools/MenuItemDefault.cs
+  artifactKey: Guid(cb6cafad65a800747aae4115d3c6708f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Helpers/Tools/MenuItemDefault.cs using Guid(cb6cafad65a800747aae4115d3c6708f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '78606c8f77888ee137e60313c942ceff') in 0.001849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs
+  artifactKey: Guid(230fe34542e175245ba74b4659dae700) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs using Guid(230fe34542e175245ba74b4659dae700) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4fce943531a70e7c6a8e7933c800ae89') in 0.002557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll
+  artifactKey: Guid(45d5034162d6cf04dbe46da84fc7d074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll using Guid(45d5034162d6cf04dbe46da84fc7d074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'e762ed472289201e8f0d63e5c6d290ae') in 0.004350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png
+  artifactKey: Guid(b9e0e5a8836018e4c810fbceba55a1b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png using Guid(b9e0e5a8836018e4c810fbceba55a1b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'ee476974757631d251e361a61b8e465b') in 0.005229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.pdb
+  artifactKey: Guid(1e0a9643dc0d4b46bf2321f72c4e0a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.pdb using Guid(1e0a9643dc0d4b46bf2321f72c4e0a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '2a91e197c39a26362cf69e6ed71e7649') in 0.001396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs
+  artifactKey: Guid(dae9aa560b4242648a3affa2bfabc365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs using Guid(dae9aa560b4242648a3affa2bfabc365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3e36d6b97f3672052b40fb51a6eede54') in 0.003854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/DOTween.dll
+  artifactKey: Guid(a811bde74b26b53498b4f6d872b09b6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTween/DOTween.dll using Guid(a811bde74b26b53498b4f6d872b09b6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f1e81f1428ee28e52333bdc18c0169d7') in 0.003513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Helpers/Dev_Tools/UnbiasedTime.cs
+  artifactKey: Guid(2975e65c633d64d77abd620f6ff2d846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Helpers/Dev_Tools/UnbiasedTime.cs using Guid(2975e65c633d64d77abd620f6ff2d846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'b5c4b10189e520218b7653261e527d90') in 0.002133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png
+  artifactKey: Guid(39cacc93c6c183f44992bf2421362f78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png using Guid(39cacc93c6c183f44992bf2421362f78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7692c6a5776d905255dc2debef1bcf6c') in 0.005203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.186856 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png
+  artifactKey: Guid(2a563a43c33f0f3428d02b3a43886fc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png using Guid(2a563a43c33f0f3428d02b3a43886fc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'e2c6a3ce12d5aaac9a966e68a2153a46') in 0.007961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png
+  artifactKey: Guid(f252c69cd0163714eba038403f61b09e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png using Guid(f252c69cd0163714eba038403f61b09e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7cab84e8a50753263f980cc94977908d') in 0.010321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png
+  artifactKey: Guid(afd7d0ddb1d6c744b9cb87ae49b2ce62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png using Guid(afd7d0ddb1d6c744b9cb87ae49b2ce62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '46a4854562427208eb1936c2fe58b51b') in 0.007904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png
+  artifactKey: Guid(d1278357b25e10442b6ca6c24edc9781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png using Guid(d1278357b25e10442b6ca6c24edc9781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'e8fb70069f70035d239c8e8b9bac8f82') in 0.006213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png
+  artifactKey: Guid(d563d6ce25cd2ca48b185ec47a74a3fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png using Guid(d563d6ce25cd2ca48b185ec47a74a3fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '281ca660454591d2024a5ab218da18f6') in 0.005670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png
+  artifactKey: Guid(93b68213089b05943a651574eb7e2fb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png using Guid(93b68213089b05943a651574eb7e2fb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0f2fea4c89d0f07a9dfeb02de4441435') in 0.005635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png
+  artifactKey: Guid(fb605a2688b31194887f2e7a6769235b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png using Guid(fb605a2688b31194887f2e7a6769235b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '2ebbf7f222ae3a4ef07cdb26a7d215a1') in 0.007028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000833 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png
+  artifactKey: Guid(29b0e8156f6fb774faf129c83bc9ee33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png using Guid(29b0e8156f6fb774faf129c83bc9ee33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'cf9c48c5ee2811abaa9a989497370646') in 0.005768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png
+  artifactKey: Guid(20794834c0a413f408b80110d0fc73b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png using Guid(20794834c0a413f408b80110d0fc73b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a464c32cc38be0fcdac7159c8168d272') in 0.008257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png
+  artifactKey: Guid(e3ae01f12865ad54ba365963bda55759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png using Guid(e3ae01f12865ad54ba365963bda55759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '57850d87d861644f78f886e0bc9497de') in 0.006442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png
+  artifactKey: Guid(5510cdd48a6aaaa439c95ef5b2fe9e28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png using Guid(5510cdd48a6aaaa439c95ef5b2fe9e28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '2749dfbef52e531f8fe4c8325050802e') in 0.008740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png
+  artifactKey: Guid(645aafe2260b2884a9df05b4bc01b1ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png using Guid(645aafe2260b2884a9df05b4bc01b1ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4637ee8a2440289973fab85c607c64d7') in 0.005652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png
+  artifactKey: Guid(7d504312fad10f040b95bd8836dc6fc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png using Guid(7d504312fad10f040b95bd8836dc6fc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '451d3a9031f0c00b656e0ed222d34432') in 0.005234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png
+  artifactKey: Guid(0c0132429106c8a4d89d9d0a6b723ec3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png using Guid(0c0132429106c8a4d89d9d0a6b723ec3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'aa8b0bc95505f96df21193cb025de328') in 0.005445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png
+  artifactKey: Guid(c0a56b88a1b449045b3fe5f561aa12fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png using Guid(c0a56b88a1b449045b3fe5f561aa12fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7a9e459d3a9a858d2cf9d7f18ff11c0c') in 0.006590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png
+  artifactKey: Guid(ef40b00a83f7bd34f84851386b3321f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png using Guid(ef40b00a83f7bd34f84851386b3321f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '8bc2d8f8e18993f59ff32e0fe2d32d3f') in 0.005436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png
+  artifactKey: Guid(fc3b86627d5fe1c4d865b80627e2e37c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png using Guid(fc3b86627d5fe1c4d865b80627e2e37c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd70f5d63079821af817da2ca7cfac082') in 0.005554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareCurved.png
+  artifactKey: Guid(070edb62059c27b408e16f28cb87f941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareCurved.png using Guid(070edb62059c27b408e16f28cb87f941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7ca56a733c29a14ccc70f1b509327431') in 0.005199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png
+  artifactKey: Guid(511f6b24c50557a40a09633b12b8b8ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png using Guid(511f6b24c50557a40a09633b12b8b8ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'cf4fbb3974a3a0772bb230f7f018fbfe') in 0.006392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png
+  artifactKey: Guid(dfe6e0ac3e5f24740a17e14b65e08406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png using Guid(dfe6e0ac3e5f24740a17e14b65e08406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '23cc9a4723d19fcd9df4bce340531912') in 0.005337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png
+  artifactKey: Guid(c0c40ceac3c6df146a0fcd4e6b226540) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png using Guid(c0c40ceac3c6df146a0fcd4e6b226540) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '055ca651fe1f0d3448ddf403cb54a26e') in 0.005907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png
+  artifactKey: Guid(517a5bfe18f2ee04d9925db10be034e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png using Guid(517a5bfe18f2ee04d9925db10be034e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1612a1150f09274a525ea5631648f9f2') in 0.005166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png
+  artifactKey: Guid(ca2f91cc405eb144dad970eb23db2f72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png using Guid(ca2f91cc405eb144dad970eb23db2f72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '10f80d27daea76df3ca4941b88bca881') in 0.005422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png
+  artifactKey: Guid(4578222ee7a511446b0c340551bf8740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png using Guid(4578222ee7a511446b0c340551bf8740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0217094bc37db62e820ac71115e59d37') in 0.006599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png
+  artifactKey: Guid(dec3ea647707588408ec0d11ab130b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png using Guid(dec3ea647707588408ec0d11ab130b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1eeda20837ceb0fdcb90f0d9f1f7da69') in 0.005293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png
+  artifactKey: Guid(4896b5aa9d63dec498136c21ffce735b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png using Guid(4896b5aa9d63dec498136c21ffce735b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a1aa79c9f3fe60c33b3ad8becc3b8694') in 0.005487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png
+  artifactKey: Guid(dc0ca9b32ae9fd049911671cf1a480bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png using Guid(dc0ca9b32ae9fd049911671cf1a480bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'ff449abfcd0157c6cc70e82d9677968a') in 0.005496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png
+  artifactKey: Guid(f536c51d3da3f2e4ca93ac8773ec2ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png using Guid(f536c51d3da3f2e4ca93ac8773ec2ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '6b8809f0027911a84a00354c880a2af2') in 0.006953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png
+  artifactKey: Guid(27df4ca974a8eaf40803907859421506) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png using Guid(27df4ca974a8eaf40803907859421506) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd6cef598aface8a35fe67075544ac644') in 0.005167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png
+  artifactKey: Guid(d8306b1e159c72c4ebc9a4fc31debe60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png using Guid(d8306b1e159c72c4ebc9a4fc31debe60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '597e952043707e32f1e1bc1988b2d0f0') in 0.005644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png
+  artifactKey: Guid(039dc89c76661c344b7776f8a47cc5a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png using Guid(039dc89c76661c344b7776f8a47cc5a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '72c462838a1a84c7abc0f5d97d833232') in 0.005554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png
+  artifactKey: Guid(ed3789262161efa4fa33c85ca534590e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png using Guid(ed3789262161efa4fa33c85ca534590e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '33afa2d73a940aeac9f1a062acfa7ff8') in 0.006735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png
+  artifactKey: Guid(6dfd924c0ba23844fb5d04ad1560de22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png using Guid(6dfd924c0ba23844fb5d04ad1560de22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '77b4de15c7951cc8ce2b19a1198b159e') in 0.005403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png
+  artifactKey: Guid(c456d5ac01d2aa843a63985497b04931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png using Guid(c456d5ac01d2aa843a63985497b04931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'e333af8e36113936a4ee9f28529066f4') in 0.005502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png
+  artifactKey: Guid(3b67e53c8c2f8114b966c0e70d452419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png using Guid(3b67e53c8c2f8114b966c0e70d452419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4fda716f32d502451089a03f0a591672') in 0.005112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
